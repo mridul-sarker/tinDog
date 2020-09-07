@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+body{
+  
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    color: white;
+}
+ul.navbar-nav.ml-auto {
+    text-align: right;
+    font-size: 20px;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+#header{
+    height: 100%;
+    background-color: #900c3f;
+}
+.col-md-6 img{
+    width: 100%;
+}
+#style{
+    opacity: 0;
+    transition: 0.6s;
+}
+.col-md-6 h1 {
+    margin-top: 40%;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+    font-size: 3rem;
+    color: #fff;
+}
+button.btn.btn-lg.headerBtn {
+    color: white;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+button.btn.btn-lg.headerBtn:hover {
+    background: white;
+    color:black;
+}
+.col-md-4.part1-blog {
+    text-align: center;
+    padding: 5%;
+}
+h4{
+    font-family:'Ubuntu';
+    font-weight: bold;
+}
+.col-md-4.part1-blog p{
+    color: #777;
+}
+.part1-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition: 0.5s ease;
+}
+.part1-icon:hover{
+    color: #900c3f;
+}
+#testimunials{
+    background-color:#900c3f ;
+}
+.col-lg-12{
+    text-align: center;
+    color: #fff;
+}
+.col-lg-12 h2{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-bottom: 20px;
+}
+.col-lg-12 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 146px;
+    margin-right: 20px;
+}
+
+.col-lg-12 span {
+    font-size: 18px;
+    color: #ddd;
+    font-weight: lighter;
+}
+.col-md-12.t-logo {
+    text-align: center;
+    
+}
+.first-part{
+    margin-bottom: 30px;
+}
+.pricContainer{
+    text-align: center;
+}
+.pricContainer p{
+max-width: 500px;
+margin: 0 auto;
+}
+.semiDiv{
+    margin-top: 20px;
+    text-align: center;
+}
+.card-header h3{
+    font-weight: bold;
+}
+.card-body p {
+    color: #777;
+}
+.card-body h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+button.btn.btn-lg.btn-block.btn-outline-primary.active {
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+button.btn.btn-lg.btn-block.btn-outline-primary.active:hover {
+    opacity: 1;
+}
+.cta{
+    color: white;
+    background-color: #fc3c72;
+    text-align: center;
+    padding: 3% 5%;
+}
+h3.singleHeader {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+.footer{
+    text-align: center;
+    padding: 3% 7%;
+}
+.footer P{
+    color: #888;
+}
+.logoFooter{
+    margin-left: 4px;
+}
+h2 #colorHS{
+font-size: 2rem;
+color: #666;
+}
+.singleHeight{
+    height:400px;
+}
+button.btn.btn-lg.btn-block.btn-outline-primary.active.firstChild {
+    margin-top: 58px;
+}
+
+button.btn.btn-lg.btn-block.btn-outline-dark {
+    margin-top: 58px;
+}
+@media only screen and ( max-width:770px ){
+    #header{
+        height: 100%;
+        background-color: #900c3f;
+    }
+    .col-lg-12 h2{
+        width: 60%;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+}
